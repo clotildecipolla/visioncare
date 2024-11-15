@@ -1,0 +1,147 @@
+/* Couleurs et typographie */
+body {
+    background: #F7F9FC;
+    color: #575F7D;
+    font-family: "Lora", serif;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #7ECE90;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Conteneurs et cartes */
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+/* Boutons */
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-blue:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Listes en ligne */
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+/* Sections spécifiques */
+#concept {
+    padding: 20px 0;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#produit {
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid #7ECE90;
+    border-radius: 8px;
+    background: white;
+}
+
+#contact form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#contact form input, #contact form textarea {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#contact form button {
+    background: #6B72E1;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background: black;
+    color: white;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
